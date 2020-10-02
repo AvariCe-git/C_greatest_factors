@@ -64,7 +64,7 @@ void find_greatest_factor(int n1, int n2){                                      
     for(i=1; i<=n1; i++)                                                                            // It checks in the range between 1 and the smallest number
         if(n1%i ==0 && n2%i == 0 ){                                                                 // using the modulo operation
             if(trip == false){                                                                      // I'm using the boolean here so it shows the first message only once
-                printf("The common factors of %d and %d are:  %d",n1,n2,i);                     // and subsequently just print the common factors 
+                printf("The common factors of %d and %d are:  %d",n1,n2,i);                         // and subsequently just print the common factors 
                 trip = true;                                                                        // It will always show at least the factor 1
             }
             else
